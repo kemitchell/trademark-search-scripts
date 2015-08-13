@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 while read -r mark
 do
 	./node_modules/.bin/levenfilter "$mark" 1 < mark-identifications
