@@ -1,0 +1,6 @@
+#!/bin/zsh
+while read -r mark
+do
+	fgrep -i "$mark" mark-identifications
+done
+exit 0

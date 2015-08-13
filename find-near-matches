@@ -1,0 +1,6 @@
+#!/bin/zsh
+while read -r mark
+do
+	./node_modules/.bin/levenfilter "$mark" 1 < mark-identifications
+done
+exit 0
